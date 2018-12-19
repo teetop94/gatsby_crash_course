@@ -8,7 +8,7 @@ const BlogPost = ({data}) => (
       <br />
       <br />
       
-      <h1>Welcome to Teetop Codes</h1>
+      <h2>Welcome to Teetop Codes</h2>
       <p>This is a space where we will learn everything and how to be a Full Stack Developer</p>
       {data.allMarkdownRemark.edges.map(post => (
           <div key={post.node.id}>
